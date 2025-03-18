@@ -28,17 +28,6 @@ This project implements an FPGA-based Ethernet MAC layer on the Arty A7-100T, en
 
 ---
 
-## **Project Architecture**
-├── src/
-│ ├── ethernet_top.v # Top-level module integrating all components │ ├── ethernet_rx.v # Ethernet frame receiver (MII RX) │ ├── ethernet_tx.v # Ethernet frame transmitter (MII TX) │ ├── mac_filter.v # MAC address filtering │ ├── fifo_buffer.v # FIFO buffer for packet storage │ ├── crc32.v # CRC32 checksum module │ ├── uart_debug.v # UART debugging interface │ ├── clk_wiz_0.v # Clock Wizard (Generates 100MHz system clock) │ ├── constraints.xdc # FPGA pin mapping (MII & UART signals) │
-├── sim/
-│ ├── tb_ethernet_mac.v # Testbench for MAC module │ ├── tb_fifo.v # Testbench for FIFO buffering │
-├── README.md # Project documentation
-└── LICENSE # License file
-
-
----
-
 ## **System Architecture**
 This design is composed of **multiple Verilog modules**, each performing a key function in the Ethernet communication pipeline.
 

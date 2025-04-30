@@ -14,7 +14,7 @@ This project implements an FPGA-based Ethernet MAC layer on the Arty A7-100T, en
 
 ##  **Hardware & Tools**
 ### **Required Hardware**
-- **FPGA Board:** Arty A7-100T  
+- **FPGA Board:** Arty A7-100T (Xilinx) 
 - **Onboard Ethernet PHY:** DP83848 (Connected via MII)  
 - **RJ45 Ethernet Cable**  
 - **USB-to-Serial Adapter (For UART Debugging)**  
